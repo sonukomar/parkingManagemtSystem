@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% include 'partials/css.html'%}
+    <title>{{ title }}</title>
+    <style>
+        #navigation .col-md-12{
+            background: rgba(0, 0, 0, 0.36);
+            position: fixed;
+            width: 100%;
+        }
+        body{
+            background: rgb(165, 42, 42);
+            color:white!important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        {% block main %}
+        {% endblock %}
+    </div>
+{% include 'partials/js.html'%}    
+</body>
+</html>

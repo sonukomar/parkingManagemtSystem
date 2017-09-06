@@ -25,7 +25,7 @@ SECRET_KEY = 'uzn=&t*#j3un^p^5b6#1d_gakc=f_=6%5#cju7)w9bbm(d5jes'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['parkingmgmt.herokuapp.com']
 
 
 # Application definition
